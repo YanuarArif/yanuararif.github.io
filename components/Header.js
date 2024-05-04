@@ -9,13 +9,24 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8">
           {/* logo */}
-          <Link href={"/"}>
+          <Link
+            href={"/"}
+            className="flex h-full w-full justify-evenly md:justify-start">
             <Image
-              src={"/logo.svg"}
+              src={"/logo-panti.png"}
               width={220}
               height={40}
               alt=""
               priority={true}
+              className="h-[80px] w-[80px]"
+            />
+            <Image
+              src={"/logo-muhammadiyah.png"}
+              width={220}
+              height={40}
+              alt=""
+              priority={true}
+              className="h-[80px] w-[80px]"
             />
           </Link>
           {/* socials */}
