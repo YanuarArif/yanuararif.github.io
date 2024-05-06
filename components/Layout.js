@@ -15,7 +15,7 @@ const sora = Sora({
 const Layout = ({ children }) => {
   return (
     <div
-      className={`page bg-gradient-to-br from-[#6499E9] to-[#9EDDFF] text-white bg-cover ${sora.variable} font-sora relative`}>
+      className={`page bg-[#fefefe] text-white bg-cover ${sora.variable} font-sora relative`}>
       <TopLeftImg />
       <Nav />
       <Header />

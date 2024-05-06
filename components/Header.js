@@ -5,7 +5,7 @@ import Socials from "../components/Socials";
 
 const Header = () => {
   return (
-    <header className="absolute z-30 w-full flex items-center px-16 xl:px-0 xl:h-[90px]">
+    <header className="absolute z-30 mx-auto flex items-center w-full">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8">
           {/* logo */}
@@ -20,6 +20,9 @@ const Header = () => {
               priority={true}
               className="h-[80px] w-[80px]"
             />
+            <h1 className="text-primary flex flex-col text-center justify-center text-xl uppercase font-bold leading-none">
+              Panti Asuhan <br /> Muhammadiyah Sokaraja
+            </h1>
             <Image
               src={"/logo-muhammadiyah.png"}
               width={220}

@@ -22,9 +22,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "#6499E9",
-        secondary: "#9EDDFF",
-        accent: "#F13024",
+        primary: "#57CC99",
+        secondary: "#C7F9CC",
+        active: "#22513d",
+        bgcolor: "#FEFEFE",
       },
       backgroundImage: {
         explosion: 'url("/bg-explosion.png")',
@@ -47,4 +48,8 @@ module.exports = {
     },
   },
   plugins: [require("tailwind-scrollbar"), require("daisyui")],
+
+  daisyui: {
+    themes: ["light", "dark", "cupcake"],
+  },
 };

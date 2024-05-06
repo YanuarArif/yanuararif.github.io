@@ -9,9 +9,9 @@ import { fadeIn } from "../variants";
 
 const Home = () => {
   return (
-    <div className="bg-primary h-full">
+    <div className="bg-bgcolor h-full">
       {/* text */}
-      <div className="w-full h-full">
+      <div className="h-full w-full">
         <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
           {/* title */}
           <motion.h1
@@ -19,9 +19,8 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1">
-            Transforming Ideas <br /> Into{" "}
-            <span className="text-accent">Digital Reality</span>
+            className="h1 text-primary">
+            PANTI ASUHAN MUHAMMADIYAH SOKARAJA
           </motion.h1>
           {/* subtitle */}
           <motion.p
@@ -29,9 +28,10 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. At, dicta?
-            Aut dolor temporibus illum magni ea tenetur deleniti, odio sint.
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 text-primary">
+            Lembaga Kesejahteraan Sosial Anak (LKSA) atau Amal Usaha
+            Muhammadiyah (AUM) yang berada di bawah naungan Pimpinan Cabang
+            Muhammadiyah Sokaraja
           </motion.p>
           {/* button */}
           <div className="flex justify-center xl:hidden relative">
